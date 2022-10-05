@@ -1,3 +1,4 @@
+/* Configuración del header */
 @media (min-width: 700px) {
 	.headerPrincipal .container {
 		display: flex;
@@ -8,6 +9,26 @@
         display: flex;
     }
   }
+  /* Configuración del contenido principal */
+
+    .contenidoPrincipal-cursos-link{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+@media (min-width: 700px) {
+    .contenidoPrincipal-cursos
+    {
+        display: flex;
+        flex-wrap: wrap;
+     
+    }
+    .contenidoPrincipal-cursos-link{
+        width: 23%;
+        margin-bottom: 0;
+    }
+}
+
 /* Esto seria con GRID y responsive */
   /* .contenidoPrincipal-cursos{
     display: grid;
@@ -23,18 +44,17 @@
  .rodapePrincipal-navMap-list{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 
 
   }
   @media (min-width: 700px) {
     .rodapePrincipal-navMap-list{
-        height: 250px;
+        height: 260px;
         flex-wrap: wrap;
     }
   }
-  .rodapePrincipal-patrocinadores .container{
-    display: block
-  }
+
 .rodapePrincipal-patrocinadores-list{
     display: flex;
     align-items: center;
