@@ -1,0 +1,10 @@
+@media (min-width: 700px) {
+	.headerPrincipal .container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+    .headerPrincipal-nav {
+        display: flex;
+    }
+  }

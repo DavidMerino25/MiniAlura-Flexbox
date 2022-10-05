@@ -22,6 +22,7 @@ body {
 .headerPrincipal-titulo a {
 	text-decoration: none;
 	color: inherit;
+	text-align: center;
 }
 
 .headerPrincipal-nav-link {
@@ -236,6 +237,7 @@ body {
 	.headerPrincipal-nav {
 		width: auto;
 	}
+
 
 	.headerPrincipal-nav-link {
 		width: auto;
