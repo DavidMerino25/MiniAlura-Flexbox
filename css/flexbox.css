@@ -20,6 +20,18 @@
 
 
   /* Configuración del footer */
+ .rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+
+
+  }
+  @media (min-width: 700px) {
+    .rodapePrincipal-navMap-list{
+        height: 250px;
+        flex-wrap: wrap;
+    }
+  }
   .rodapePrincipal-patrocinadores .container{
     display: block
   }
@@ -39,4 +51,8 @@
         
         width: 75%;
     }
+  }
+  .rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+    justify-content: center;
   }
