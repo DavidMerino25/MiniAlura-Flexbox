@@ -8,12 +8,35 @@
         display: flex;
     }
   }
-
-  .contenidoPrincipal-cursos{
+/* Esto seria con GRID y responsive */
+  /* .contenidoPrincipal-cursos{
     display: grid;
     grid-template-columns: repeat(
         auto-fit,
         minmax(250px,1fr)
         );
     gap: 2rem;
+  } */
+
+
+  /* Configuración del footer */
+  .rodapePrincipal-patrocinadores .container{
+    display: block
+  }
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+@media (min-width: 700px) {
+    .rodapePrincipal-patrocinadores .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .rodapePrincipal-patrocinadores-list{
+        
+        width: 75%;
+    }
   }
