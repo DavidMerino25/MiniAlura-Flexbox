@@ -1,5 +1,10 @@
 /* Configuración del header */
-@media (min-width: 700px) {
+.headerPrincipal-titulo{
+  text-align: center;
+}
+
+
+@media (min-width: 768px) {
 	.headerPrincipal .container {
 		display: flex;
 		justify-content: space-between;
@@ -9,6 +14,10 @@
         display: flex;
     }
   }
+  .headerPrincipal-nav-link{
+    
+    text-align: center;
+  }
   /* Configuración del contenido principal */
 
     .contenidoPrincipal-cursos-link{
@@ -16,7 +25,7 @@
         margin-bottom: 1rem;
     }
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
     .contenidoPrincipal-cursos
     {
         display: flex;
@@ -39,7 +48,28 @@
     gap: 2rem;
   } */
 
-
+  /* Configuración de la seción del video   */
+  .videoSobre{
+    margin: 2rem 0;
+  }
+  .videoSobre .container{
+    display: block;
+    align-items: center;
+  }
+  .videoSobre-sobre{
+    text-align: center;
+  }
+  .videoSobre-button{
+    margin: auto;
+  }
+  @media (min-width: 768px) {
+    .videoSobre .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    }
+ 
   /* Configuración del footer */
  .rodapePrincipal-navMap-list{
     display: flex;
@@ -48,7 +78,7 @@
 
 
   }
-  @media (min-width: 700px) {
+  @media (min-width: 768px) {
     .rodapePrincipal-navMap-list{
         height: 260px;
         flex-wrap: wrap;
@@ -61,7 +91,7 @@
     width: 100%;
     justify-content: space-around;
 }
-@media (min-width: 700px) {
+@media (min-width: 768px) {
     .rodapePrincipal-patrocinadores .container{
         display: flex;
         align-items: center;
